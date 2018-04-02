@@ -1,0 +1,196 @@
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+.logo .container {
+  background-color: #90bc33;
+}
+
+.about .container {
+  background: #9cc832;
+}
+
+.macbook {
+  height: 400px;
+}
+
+.offer__title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.icon__item {
+  height: 100px;
+}
+
+.about__photo {
+  height: 200px;
+  width: 200px;
+  background: url(../img/about.jpg) center center/cover no-repeat;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about__name {
+  color: black;
+  font-size: 38px;
+  position: relative;
+}
+
+.about__text {
+  color: black;
+  font-size: 18px;
+}
+
+.about__cert {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.port__title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.portfolio .container {
+  background: url(../img/abstract.png) center center/cover no-repeat;
+}
+
+.contact .container {
+  background: url(../img/abstract-2.png) center center/contain no-repeat;
+}
+
+.footer .container {
+  height: 66px;
+  background: #f8f9fa;
+}
+
+.gallery .card-img-top {
+  height: 260px;
+}
+
+.card:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.copyright__text {
+  line-height: 66px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.social__footer {
+  color: black;
+  cursor: pointer;
+  padding-top: 20px;
+  margin-left: 200px;
+}
+
+.social__footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav a {
+  color: black;
+}
+
+.nav__foot {
+  line-height: 50px;
+}
+
+#toTop {
+  width: 70px;
+  border: 1px solid #90bc33;
+  background: #9cc832;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  display: none;
+  color: #333;
+  border-radius: 5px;
+}
+#toTop:hover {
+  background: #90bc33;
+}
+
+@media screen and (max-width: 992px) {
+  .macbook {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .copyright__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .social__footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .macbook {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .copyright__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .nav__foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .social__footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
